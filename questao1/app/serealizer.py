@@ -1,7 +1,6 @@
 from flask_marshmallow import Marshmallow
 from .model import Data
 
-
 ma = Marshmallow()
 
 

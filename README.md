@@ -34,7 +34,6 @@ conter uma lista com os produtos comprados. A timeline deve ser ordenada pelo ca
 - flask_migrate
 - flask_marshmallow
 - marshmallow_sqlalchemy
-- flask-jwt-extended
 
 ## Como executar a solução da questão 1
 
@@ -43,13 +42,20 @@ export FLASK_APP=app
 export FLASK_ENV=Development
 export FLASK_DEBUG=True
 
+flask run
 ```
+
+#EndPoints
+
+- http://localhost:5000/events mostra todos os eventos cadastrados
+- http://localhost:5000/events cadastrar novos eventos
+- http://localhost:5000/autocomplete/string_de_busca autocomplete
 
 ## Ferramentas utilizadas na questão 2
 
--Python3
--requests: biblioteca para fazer requisições HTTP em Python
--json: biblioteca para trabalhar com Json em Python
+- Python3
+- requests: biblioteca para fazer requisições HTTP em Python
+- json: biblioteca para trabalhar com Json em Python
 
 ## Como executar a solução da questão 2
 

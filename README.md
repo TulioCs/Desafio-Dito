@@ -45,7 +45,7 @@ export FLASK_DEBUG=True
 flask run
 ```
 
-#EndPoints
+# EndPoints
 
 - http://localhost:5000/events mostra todos os eventos cadastrados
 - http://localhost:5000/events/cadastrar cadastrar novos eventos

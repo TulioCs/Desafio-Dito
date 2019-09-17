@@ -48,7 +48,7 @@ flask run
 #EndPoints
 
 - http://localhost:5000/events mostra todos os eventos cadastrados
-- http://localhost:5000/events cadastrar novos eventos
+- http://localhost:5000/events/cadastrar cadastrar novos eventos
 - http://localhost:5000/autocomplete/string_de_busca autocomplete
 
 ## Ferramentas utilizadas na questão 2
